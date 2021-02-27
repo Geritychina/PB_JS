@@ -66,20 +66,22 @@ function sum(input){
 
 // 7 lab
 
-function dividedByNine(numArr) {
-    let firstNum = Number(numArr[0]);
-    let secondNum = Number(numArr[1]);
-    let result = 0;
-    let resultString = "";
-    for (let i = firstNum; i <= secondNum; i++) {
-        if (i % 9 == 0) {
-            result += i;
-            resultString = resultString + i + " ";
+function divisibleByNine([num1, num2]) {
+    num1 = Number(num1);
+    num2 = Number(num2);
+    let sum = 0;
+    let allNumbers = '';
+
+    for (let i = num1; i < num2; i++) {
+        if(i % 9 == 0){
+            sum += i;
+            allNumbers += i + '\n';
         }
     }
 
-    console.log(result);
-    console.log(resultString);
+    console.log(`The sum: ${sum}`);
+    console.log(allNumbers);
+    
 }
 //8 lab
 
