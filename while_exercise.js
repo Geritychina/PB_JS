@@ -116,7 +116,7 @@ function walking(input) {
     }
 }
 // 4 exercise
-function coins(number) {
+function coins([number]) {
     number = Math.round(Number(number) * 100);
     let allCoins = 0;
 
