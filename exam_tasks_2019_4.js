@@ -370,16 +370,14 @@ function easterDec(input) {
 
             if (command === "basket") {
                 basket++;
-                productsCount++;
             } else if (command === "wreath") {
                 wreath++;
-                productsCount++;
             } else if (command === "chocolate bunny") {
                 chocolateBunny++;
-                productsCount++;
             }
-            command = input[i];
             i++;
+            command = input[i];
+            productsCount++;
         }
 
         productNum = basket + wreath + chocolateBunny;
@@ -394,7 +392,7 @@ function easterDec(input) {
             break;
         }
     }
-    console.log(`Average bill per client is: ${(wholeSum / productsCount).toFixed(2)} leva.`);
+    console.log(`Average bill per client is: ${(wholeSum / customers).toFixed(2)} leva.`);
 }
 easterDec(["2",
     "basket",
