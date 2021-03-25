@@ -378,8 +378,8 @@ function easterDec(input) {
                 chocolateBunny++;
                 productsCount++;
             }
-            i++;
             command = input[i];
+            i++;
         }
 
         productNum = basket + wreath + chocolateBunny;
