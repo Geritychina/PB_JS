@@ -394,12 +394,5 @@ function easterDec(input) {
     }
     console.log(`Average bill per client is: ${(wholeSum / customers).toFixed(2)} leva.`);
 }
-easterDec(["2",
-    "basket",
-    "wreath",
-    "chocolate bunny",
-    "Finish",
-    "wreath",
-    "chocolate bunny",
-    "Finish"]);
+
 //6
