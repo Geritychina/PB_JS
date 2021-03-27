@@ -15,7 +15,7 @@ function color(color) {
     }
 }
 
-//2 lets
+//2 lects
 
 function greaterNum(numArr) {
     let firstNum = Number(numArr[0]);
