@@ -1,4 +1,4 @@
-# Programming Basics with Javascript<br>
+# Programming Basics with Javascript 🟨 <br>
 ▶️ Tasks from Softuni<br>
 📆 February 2021
 <br>
