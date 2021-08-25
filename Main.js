@@ -165,7 +165,7 @@ function litresWaterNeeded(input) {
     let percent = Number(input[3]) * 0.01;
     let pureLitres = totalLitres * (1 - percent);
 
-    console.log(pureLitres);
+    console.log(pureLitres.toFixed(2));
 }
 //8
 
